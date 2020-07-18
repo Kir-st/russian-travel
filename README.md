@@ -12,4 +12,4 @@
 2. Figma
 
 ### GitHub Pages: ###
-
+https://kir-st.github.io/russian-travel/
