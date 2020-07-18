@@ -1,0 +1,27 @@
+@import url(./_language/header__language-link_selected.css);
+@import url(./_language/header__language-link_not_selected.css);
+
+.header__language-link {
+  padding-top: 46px;
+  margin-right: 18px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  box-sizing: border-box;
+
+}
+
+.header__language-link:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 400px) {
+  .header__lang-link {
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
