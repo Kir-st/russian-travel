@@ -1,16 +1,14 @@
 .footer__links {
   padding-left: 0;
+  list-style: none;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  list-style: none;
-  }
+}
 
-  @media screen and (max-width: 600px) {
-    .footer__links {
-      min-height: 200px;
-      padding-left: 16px;
-      flex-direction: column;
-      align-content: space-between;
-    }
+@media screen and (max-width: 600px) {
+  .footer__links {
+    padding-left: 16px;
+    flex-direction: column;
+    align-content: space-between;
   }
+}

@@ -1,8 +1,8 @@
 @import url(./__language-link/header__language-link.css);
 
 .header {
-  margin: 0 auto;
   max-width: 1184px;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

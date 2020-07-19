@@ -1,11 +1,10 @@
 .footer__link {
-  margin-right: 18px;
-  font-size: 16px;
   line-height: 18px;
+  margin-right: 18px;
   text-decoration: none;
   color: #fff;
+  font-size: 16px;
   list-style: none;
-  color: #fff;
 }
 
 .footer__link:hover {
@@ -15,7 +14,7 @@
 
 @media screen and (max-width: 600px) {
   .footer__link {
-    line-height: 24px;
     font-size: 24px;
+    line-height: 56px;
   }
 }

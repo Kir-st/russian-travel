@@ -1,5 +1,5 @@
 @font-face {
-  src: url('./Inter-Regular.woff2') format('woff2');
+  src: url('./Inter-Regular.woff2') format('woff2'); /*При написании шритов через запятую VS Code выдаёт ошибку и они слетают */
   src: url('./Inter-Regular.woff') format('woff');
   font-family: 'Inter';
   font-weight: normal;
