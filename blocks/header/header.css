@@ -1,9 +1,21 @@
 @import url(./__language-link/header__language-link.css);
+@import url(./__language-link/_language/header__language-link_selected.css);
 
 .header {
   max-width: 1184px;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .header {
+    max-width: 720px;
+  }
 }

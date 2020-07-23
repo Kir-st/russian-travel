@@ -1,7 +1,6 @@
-@import url(./_place/logo_place_header.css);
-
 .logo {
   min-height: 52px;
+  margin-top: 28px;
   width: 176px;
 }
 
@@ -9,5 +8,7 @@
   .logo {
     height: 42px;
     width: 142px;
+    margin-left: 16px;
+    margin-top: 16px;
   }
 }

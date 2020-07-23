@@ -1,13 +1,23 @@
 @font-face {
-  src: url('./Inter-Regular.woff2') format('woff2'); /*При написании шритов через запятую VS Code выдаёт ошибку и они слетают */
-  src: url('./Inter-Regular.woff') format('woff');
-  font-family: 'Inter';
+  font-family: "Inter-Regular";
   font-weight: normal;
+  src:
+  url('./Inter-Regular.woff2') format('woff2'),
+  url('./Inter-Regular.woff') format('woff');
+}     /*Статья открывалась, но с остальными правками я про неё забыл. Иногда я не очень умный. ¯\_(ツ)_/¯ */
+
+@font-face {
+  font-family: "Inter-Black";
+  font-weight: black;
+  src:
+  url('./Inter-Black.woff2') format('woff2'),
+  url('./Inter-Black.woff') format('woff');
 }
 
 @font-face {
-  src: url('./Inter-Black.woff2') format('woff2');
-  src: url('./Inter-Black.woff') format('woff');
-  font-family: 'Inter';
+  font-family: "Inter-Bold";
   font-weight: bold;
+  src:
+  url("./Inter-Bold.woff2") format("woff2"),
+  url("./Inter-Bold.woff") format("woff");
 }
