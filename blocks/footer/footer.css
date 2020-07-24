@@ -21,12 +21,21 @@
 
 @media screen and (max-width: 786px) {
   .footer {
-    max-width: calc(786px - 48px);
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .footer {
     flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer {
+    max-width: 186px;
+    margin-left: 16px;
   }
 }
