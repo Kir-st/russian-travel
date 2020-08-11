@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Inter-Regular";
+  font-family: "Inter";
   font-weight: normal;
   src:
   url('./Inter-Regular.woff2') format('woff2'),
@@ -7,7 +7,7 @@
 }     /*Статья открывалась, но с остальными правками я про неё забыл. Иногда я не очень умный. ¯\_(ツ)_/¯ */
 
 @font-face {
-  font-family: "Inter-Black";
+  font-family: "Inter";
   font-weight: 900;
   src:
   url('./Inter-Black.woff2') format('woff2'),
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: "Inter-Bold";
+  font-family: "Inter";
   font-weight: bold;
   src:
   url("./Inter-Bold.woff2") format("woff2"),

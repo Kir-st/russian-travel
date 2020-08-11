@@ -30,6 +30,7 @@
   .photo-grid {
     max-width: 320px;
     grid-template-columns: 288px;
+    padding-top: 64px;
   }
 }
 
