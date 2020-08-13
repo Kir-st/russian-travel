@@ -1,0 +1,66 @@
+.cover__img {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  max-width: 1184px;
+  min-height: 740px;;
+  background-image: url(../../../images/__sobaka.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  margin-top: 92px;
+}
+
+.cover__img::before {
+  opacity: 0.3;
+  background-color: #2a2c2f;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  content: '';
+}
+
+.cover__img:hover::before {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1280px) {
+  .cover__img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .cover__img {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .cover__img {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .cover__img {
+    min-height: 480px;
+    margin-top: 64px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cover__img {
+    min-height: 200px;
+  }
+}

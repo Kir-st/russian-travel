@@ -15,3 +15,8 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .cover__title {
+    max-width: 250px;
+  }
+}

@@ -1,5 +1,6 @@
 @import url(./__language-link/header__language-link.css);
-@import url(./__language-link/_language/header__language-link_selected.css);
+@import url(./__language-link/_language-link_selected/header__language-link_selected.css);
+@import url(./__language-links/header__language-links.css);
 
 .header {
   max-width: 1184px;
@@ -14,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 900px) {
   .header {
     max-width: 720px;
   }
