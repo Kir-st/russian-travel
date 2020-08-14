@@ -3,6 +3,12 @@
   align-self: start;
 }
 
+@media screen and (max-width: 1100px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
+
 @media screen and (max-width: 870px) {
   .place__image {
     max-width: 400px;

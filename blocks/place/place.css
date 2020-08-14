@@ -65,3 +65,10 @@
     grid-row-gap: 0;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .place:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
